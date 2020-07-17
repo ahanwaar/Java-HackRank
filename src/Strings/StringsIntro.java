@@ -15,7 +15,7 @@ public class StringsIntro {
         System.out.println(capitalize(A) + " " + capitalize(B));
     }
 
-    public static String capitalize(String str) {
+    private static String capitalize(String str) {
         if(str == null || str.isEmpty()) {
             return str;
         }
